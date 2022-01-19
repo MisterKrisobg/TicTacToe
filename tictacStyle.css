@@ -43,14 +43,18 @@ table {
 }
 /* CSS Reset ends here */
 
+html {
+	font-size: 16px;
+}
 
 h1 {
-	font-size: 16px;
-    font-family: Montserrat;
+	font-size: 1rem;
+    font-family: "Montserrat";
 }
+
 .e {
-    width: 200px;
-    height: 220px;
+    width: 120px;
+    height: 160px;
     background-color: lightgrey;
     border: solid black 1px;
 }
@@ -58,39 +62,15 @@ h1 {
 .container {
     padding-top: 20px;
 }
-
-/* #tl {
-	
+section {
+	font-size: 9rem;
+	text-align: center;
+	padding: auto;
+	cursor: pointer;
 }
 
-#tm {
-
+.announce-winner {
+	font-size: 4rem;
+	text-align: center;
+	padding: 1rem 0;
 }
-
-#tr {
-
-}
-
-#ml {
-	
-}
-
-#mm {
-
-}
-
-#mr {
-
-}
-
-#bl {
-
-}
-
-#bm {
-
-}
-
-#br {
-
-} */
